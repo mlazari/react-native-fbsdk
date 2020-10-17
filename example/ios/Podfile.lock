@@ -9,20 +9,20 @@ PODS:
     - React-Core (= 0.63.0-rc.1)
     - React-jsi (= 0.63.0-rc.1)
     - ReactCommon/turbomodule/core (= 0.63.0-rc.1)
-  - FBSDKCoreKit (7.0.0):
-    - FBSDKCoreKit/Basics (= 7.0.0)
-    - FBSDKCoreKit/Core (= 7.0.0)
-  - FBSDKCoreKit/Basics (7.0.0)
-  - FBSDKCoreKit/Core (7.0.0):
+  - FBSDKCoreKit (8.0.0):
+    - FBSDKCoreKit/Basics (= 8.0.0)
+    - FBSDKCoreKit/Core (= 8.0.0)
+  - FBSDKCoreKit/Basics (8.0.0)
+  - FBSDKCoreKit/Core (8.0.0):
     - FBSDKCoreKit/Basics
-  - FBSDKLoginKit (7.0.0):
-    - FBSDKLoginKit/Login (= 7.0.0)
-  - FBSDKLoginKit/Login (7.0.0):
-    - FBSDKCoreKit (~> 7.0.0)
-  - FBSDKShareKit (7.0.0):
-    - FBSDKShareKit/Share (= 7.0.0)
-  - FBSDKShareKit/Share (7.0.0):
-    - FBSDKCoreKit (~> 7.0.0)
+  - FBSDKLoginKit (8.0.0):
+    - FBSDKLoginKit/Login (= 8.0.0)
+  - FBSDKLoginKit/Login (8.0.0):
+    - FBSDKCoreKit (~> 8.0.0)
+  - FBSDKShareKit (8.0.0):
+    - FBSDKShareKit/Share (= 8.0.0)
+  - FBSDKShareKit/Share (8.0.0):
+    - FBSDKCoreKit (~> 8.0.0)
   - Folly (2020.01.13.00):
     - boost-for-react-native
     - DoubleConversion
@@ -205,13 +205,13 @@ PODS:
     - react-native-fbsdk/Login (= 2.0.0)
     - react-native-fbsdk/Share (= 2.0.0)
   - react-native-fbsdk/Core (2.0.0):
-    - FBSDKCoreKit (~> 7.0)
+    - FBSDKCoreKit (~> 8.0)
     - React
   - react-native-fbsdk/Login (2.0.0):
-    - FBSDKLoginKit (~> 7.0)
+    - FBSDKLoginKit (~> 8.0)
     - React
   - react-native-fbsdk/Share (2.0.0):
-    - FBSDKShareKit (~> 7.0)
+    - FBSDKShareKit (~> 8.0)
     - React
   - React-RCTActionSheet (0.63.0-rc.1):
     - React-Core/RCTActionSheetHeaders (= 0.63.0-rc.1)
@@ -374,9 +374,9 @@ SPEC CHECKSUMS:
   DoubleConversion: cde416483dac037923206447da6e1454df403714
   FBLazyVector: 80d80617d51e24046a0bcc817cd9209027ecfaa9
   FBReactNativeSpec: b0fff079b3d224bd19ddd66857a9ebd879248c22
-  FBSDKCoreKit: 8ad31cd09f793d1d7e84cf20fd6cebfe80ad318d
-  FBSDKLoginKit: 5d1e321dc45ab1fa09198b77fc17c32a06f008c0
-  FBSDKShareKit: 7ec93bf49516a91513d64863f54121155bbd7f78
+  FBSDKCoreKit: 9d27fe97a2fa2abe5eeefea8240e837623ab88e0
+  FBSDKLoginKit: 2cbaf5405379731b22f2ebc224f7c30f62378171
+  FBSDKShareKit: bf3705fc42b660c3da9f15223db791b3c9c2acde
   Folly: b73c3869541e86821df3c387eb0af5f65addfab4
   glog: 40a13f7840415b9a77023fbcae0f1e6f43192af3
   RCTRequired: 6d452db9ed41ed479dded8b25cefaea171af100a
@@ -389,7 +389,7 @@ SPEC CHECKSUMS:
   React-jsi: a968acc454a107677da6027d2111221f57765de9
   React-jsiexecutor: c40a9c0e687bd7a44cc0a616ff4592a823732a0d
   React-jsinspector: 655f32d922ffb180714c0bec652e7e0923b5a5dd
-  react-native-fbsdk: 150bccffb595b3da2df70e1117176694d23af69d
+  react-native-fbsdk: e47a0b4dfb4755c8f86053ff109f20771a4f9d7d
   React-RCTActionSheet: ead415a8470cd3552f8cadce3b9b32e0d52e46a7
   React-RCTAnimation: 627dc8ad905b206c9bf10e9527079ef754b6a5dc
   React-RCTBlob: e70ce946cee9d400c5bfb0e8668dd11db852fa5a
